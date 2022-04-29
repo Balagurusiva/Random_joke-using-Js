@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background: #f6f7fc;
+}
+.wrapper {
+  width: 400px;
+  padding: 50px 40px;
+  background: linear-gradient(45deg,rgba(183, 64, 150, 1) 0%,rgba(255, 0, 69, 1) 100%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  box-shadow: 2px 31px 35px -15px rgba(0,0,0,0.64);
+}
+span {
+  display: block;
+  text-align: center;
+  margin-top: -30px;
+  color: #f6f7fc;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+p {
+  background: #f6f7fc;
+  font-size: 14px;
+  border-radius: 15px;
+  font-weight: 400;
+  text-align: center;
+  word-wrap: break-word;
+  line-height: 30px;
+  margin: 50px 0;
+  opacity: 0;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 3px 16px 41px -8px rgba(255, 255, 255, 0.37);
+}
+.fade {
+  opacity: 1;
+  transition: opacity 0.1s;
+}
+button {
+  display: block;
+  background-color: transparent;
+  border: 2px solid;
+  padding: 5px;
+  font-size: 18px;
+  color: #e7e7ec;
+  font-weight: 800;
+  padding: 12px 25px;
+  margin: 0 auto;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+}

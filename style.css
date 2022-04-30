@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -11,7 +11,7 @@ body {
 .wrapper {
   width: 400px;
   padding: 50px 40px;
-  background: linear-gradient(45deg,rgba(183, 64, 150, 1) 0%,rgba(255, 0, 69, 1) 100%);
+  background: linear-gradient(45deg,rgb(207, 63, 166) 0%,rgb(0, 255, 251) 100%);
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -29,7 +29,7 @@ span {
   font-weight: 800;
 }
 p {
-  background: #f6f7fc;
+  background: #fefefe;
   font-size: 14px;
   border-radius: 15px;
   font-weight: 400;
@@ -58,4 +58,11 @@ button {
   border-radius: 50px;
   cursor: pointer;
   outline: none;
+}
+
+button:hover{
+  font-size: 20px;
+  padding: 15px 28px;
+  border-radius: 10px;
+  transition: transform 1s ease-in-out;
 }
